@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyLab</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        box-shadow: 0 1px 8px #ddd;
+      }
+      .elem {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px 50px;
+        float: right;
+        margin-left: 580px;
+      }
+      nav li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 20px;
+      }
+      .logo {
+        margin-left: 50px;
+        height: 61px;
+        background-color: blueviolet;
+        color: #ddd;
+      }
+      .main {
+        display: flex;
+        padding: 50px;
+        gap: 75px;
+      }
+
+      .content2 {
+        margin-right: 5px;
+        display: grid;
+        grid-template-columns: 323px 282px;
+      }
+      .vdo {
+        display: flex;
+        margin-top: 50px;
+      }
+      .vidImg img {
+        width: 217px;
+        height: 120px;
+      }
+      .vidPara p {
+        margin-top: 40px;
+      }
+      h1 {
+        font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+          "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol", "Noto Color Emoji";
+        margin-top: 12px;
+      }
+      p {
+        font-family: oppins, ui-sans-serif, system-ui, -apple-system,
+          BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+          sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+          Noto Color Emoji;
+        color: #3b3435;
+        margin-top: 25px;
+      }
+      h3 {
+        font-family: Poppins, ui-sans-serif, system-ui, -apple-system,
+          BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+          sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+          Noto Color Emoji;
+        margin-top: 10px;
+      }
+      H4{
+        font-family: oppins, ui-sans-serif, system-ui, -apple-system,
+          BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+          sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+          Noto Color Emoji;
+        color: #3b3435;
+      }
+      .card{
+        padding-top: 12px;
+        padding-left: 12px;
+        width: 270px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        border-radius: 8px;
+      }
+      .elem li{
+        font-family: oppins, ui-sans-serif, system-ui, -apple-system,
+          BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+          sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+          Noto Color Emoji;
+      }
+    </style>
+
+    <div class="nav">
+      <nav>
+        <div class="logo"><h1>StudyLab</h1></div>
+        <div class="elem">
+          <li>Home</li>
+          <li>About</li>
+          <li>Course</li>
+          <li>Instructor</li>
+          <li>Blog</li>
+          <li>Contact</li>
+        </div>
+      </nav>
+    </div>
+
+    <div class="main">
+      <div class="content">
+        <h4>WELCOME TO STUDYLAB</h4>
+        <h1>We Are StudyLab An Online Learning Center</h1>
+        <p>
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia. It is a paradisematic country, in which
+          roasted parts of sentences fly into your mouth.
+        </p>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they
+          live in Bookmarksgrove right at the coast of the Semantics, a large
+          language ocean.
+        </p>
+        <div class="vdo">
+          <div class="vidImg">
+            <img
+              src="https://static-cf.toppr.com/marketing/6c448a3/images/home/productSchoolOS.png"
+              alt=""
+            />
+          </div>
+          <div class="vidPara">
+            <p>Learn anything from StudyLab, <br> Watch video</p>
+          </div>
+        </div>
+      </div>
+      <div class="content content2">
+        <div class="card">
+          <div class="imgLogo">
+            <img
+              src="https://static-cf.toppr.com/marketing/6c448a3/images/home/subjects/history.png"
+              alt=""
+              class="smallImg"
+            />
+          </div>
+          <div class="title">
+            <h3>Top Quality Content</h3>
+          </div>
+          <div class="contPara">
+            <p>
+              A small river named Duden flows <br />
+              by their place and supplies
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgLogo">
+            <img
+              src="https://static-cf.toppr.com/marketing/6c448a3/images/home/subjects/english.png"
+              alt=""
+              class="smallImg"
+            />
+          </div>
+          <div class="title">
+            <h3>Highly Skilled Instructor</h3>
+          </div>
+          <div class="contPara">
+            <p>
+              A small river named Duden flows <br />
+              by their place and supplies
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgLogo">
+            <img
+              src="https://static-cf.toppr.com/marketing/6c448a3/images/home/subjects/biology.png"
+              alt=""
+              class="smallImg"
+            />
+          </div>
+          <div class="title">
+            <h3>World Class & Quiz</h3>
+          </div>
+          <div class="contPara">
+            <p>
+              A small river named Duden flows <br />
+              by their place and supplies
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgLogo">
+            <img
+              src="https://static-cf.toppr.com/marketing/6c448a3/images/home/subjects/evs.png"
+              alt=""
+              class="smallImg"
+            />
+          </div>
+          <div class="title">
+            <h3>Get Certified</h3>
+          </div>
+          <div class="contPara">
+            <p>A small river named Duden flows by their place and supplies</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
